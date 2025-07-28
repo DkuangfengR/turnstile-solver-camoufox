@@ -1,4 +1,5 @@
 # Cloudflare - Turnstile Solver Using Camoufox⁠
+## No proxies.txt
 ```
 docker run -d \
   --name turnstile-solver \
@@ -12,7 +13,7 @@ docker run -d \
   -e PROXY=False \
   ***/turnstile-solver-camoufox:***
 ```
-# Using proxies.txt
+## Using proxies.txt
 
 + touch $(pwd)/proxies.txt
 ```
